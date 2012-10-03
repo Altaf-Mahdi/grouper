@@ -476,6 +476,7 @@ int tegra_update_cpu_speed(unsigned long rate)
 {
 	int ret = 0;
 	struct cpufreq_freqs freqs;
+        unsigned long rate_save = rate;
 
 	freqs.old = tegra_getspeed(0);
 	freqs.new = rate;

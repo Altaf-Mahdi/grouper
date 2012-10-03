@@ -26,13 +26,11 @@
 
 #include "tick-internal.h"
 
-<<<<<<< HEAD
 const int softirq_stop_idle_mask = (~(1 << RCU_SOFTIRQ));
-=======
+
 struct rq_data rq_info;
 struct workqueue_struct *rq_wq;
 spinlock_t rq_lock;
->>>>>>> 291f707... mach-tegra: tegra_sleep_stats: fix runqueue stats info
 
 /*
  * Per cpu nohz control structure
