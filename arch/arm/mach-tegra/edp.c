@@ -25,6 +25,7 @@
 #include <mach/edp.h>
 
 #include "fuse.h"
+#include "tegra_pmqos.h"
 
 static const struct tegra_edp_limits *edp_limits;
 static int edp_limits_size;
