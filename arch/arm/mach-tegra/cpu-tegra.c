@@ -842,7 +842,7 @@ static int tegra_cpu_init(struct cpufreq_policy *policy)
 	policy->shared_type = CPUFREQ_SHARED_TYPE_ALL;
 	cpumask_copy(policy->related_cpus, cpu_possible_mask);
 
-	if (policy->cpu == 0) 
+	if (policy->cpu == 0) { 
 
                 policy->max = tegra_pmqos_boost_freq;
 #ifdef CONFIG_CMDLINE_OPTIONS
