@@ -42,6 +42,7 @@
 #include "clock.h"
 #include "cpu-tegra.h"
 #include "dvfs.h"
+#include "pm.h"
 
 #ifdef CONFIG_TEGRA_MPDECISION
 /* mpdecision notifier */
